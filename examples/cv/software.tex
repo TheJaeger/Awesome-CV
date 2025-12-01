@@ -1,7 +1,7 @@
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Software Development}
+\cvsection{Open-Source Software}
 
 
 %-------------------------------------------------------------------------------
@@ -27,20 +27,7 @@
         \item {Parallel processing for quicker preprocessing and parameterization}
    	  \end{cvitems}
     }
-    
-%---------------------------------------------------------
-  \cventry
-    {Docker container that enables FSL, MRTrix3, and PyDesigner across all OS platforms} % Description
-    {\href{https://hub.docker.com/repository/docker/dmri/neurodock}{NeuroDock}} % Software Title
-    {MUSC} % Organization/group
-    {2018 - PRESENT} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Works the same across Windows, Mac and Linux for repeatability}
-        \item {Allows users to run dMRI tools on unsupported operating systems}
-   	  \end{cvitems}
-    }
-    
+
 %---------------------------------------------------------
   \cventry
     {TrackSeg compatibility library that enables seamless integration between pydesigner and tractseg} % Description
@@ -54,134 +41,5 @@
    	  \end{cvitems}
     }
     
-%---------------------------------------------------------
-  \cventry
-    {Docker container that converts PyD outputs to dt6.mat for AFQ} % Description
-    {\href{https://github.com/m-ama/makedt6frompyd}{makedt6frompyd}} % Software Title
-    {MUSC} % Organization/group
-    {2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Allows users to easily convert a PyDesigner output directory into dt6.mat for AFQ}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {A Python CLI to compress studies into multi-part ZIP files with preservation of folder hierarchy} % Description
-    {\href{https://github.com/m-ama/comprssr}{Comprssr}} % Software Title
-    {MUSC} % Organization/group
-    {2019} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Compresses study directories and splits them for cloud storage}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {DCMReporter is a Python-based CLI aimed at testing the integrity of DICOM scans. The output of this tool can be used to analyze consistency of the number of files per protocol, per subject, in an entire study} % Description
-    {\href{https://github.com/m-ama/DCMReporter}{DCMReporter}} % Software Title
-    {MUSC} % Organization/group
-    {2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Generated detailed reports on a study's imaging protocol}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {Babak Ardekani’s ART software container that runs on Windows, Mac and Linux} % Description
-    {\href{https://github.com/m-ama/ARTDock}{ArtDock}} % Software Title
-    {MUSC} % Organization/group
-    {2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Contains both GUI and CLI implementations}
-        \item {Runs across all Docker-supported operating systems}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {A CLI to convert Bruker scans into NifTi files} % Description
-    {\href{https://github.com/TheJaeger/BrukerPy}{BrukerPy}} % Software Title
-    {MUSC} % Organization/group
-    {2020 - PRESENT} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Completely written in Python}
-        \item {Extracts .bvec, .bval, and .json files from Bruker scanners}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {A complete neural network library for AI disease prediction from FreeSurfer outputs} % Description
-    {\href{https://github.com/m-ama/EnigmaNet}{EnigmaNet}} % Software Title
-    {MUSC} % Organization/group
-    {2019} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Trains AI on tabular tada produced by FreeSurfer}
-        \item {Can easily accommodate other forms of tabular data}
-        \item {Preprocesses data by replacing NaNs with means, SMOTE over/under-sampling, stratified data split, and COMBAT harmonization}
-        \item {Leverages the latest and greatest in AI-research to produce a high-performance machine}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {A MATLAB script that automatically sorts and organizes DICOM files} % Description
-    {\href{https://github.com/TheJaeger/dicomSort}{dicomSort}} % Software Title
-    {MUSC} % Organization/group
-    {2019} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Completely written in MATLAB}
-        \item {Handles compressed files pushed by scanners}
-        \item {Allows users to add prefix and suffix labels to output directories}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {A CLI that converts FreeSurfer segmentations into separate ROIs} % Description
-    {\href{https://github.com/TheJaeger/FSMakeROI}{FSMakeROI}} % Software Title
-    {MUSC} % Organization/group
-    {2020 - PRESENT} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Based on Python}
-        \item {Runs via the command line}
-        \item {Separates an \emph{aparc+aseg.mgz } into separate ROI NifTi files as indicated by a text file}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {MATLAB runtime for R2019b in Docker} % Description
-    {\href{https://github.com/m-ama/mcr-v97}{mcr-97}} % Software Title
-    {MUSC} % Organization/group
-    {2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Provides all dependencies for exectuing standalone MATLAB-compiled code}
-   	  \end{cvitems}
-    }
-    
-%---------------------------------------------------------
-  \cventry
-    {MATLAB runtime for R2020a in Docker} % Description
-    {\href{https://github.com/m-ama/mcr-v98}{mcr-98}} % Software Title
-    {MUSC} % Organization/group
-    {2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Provides all dependencies for exectuing standalone MATLAB-compiled code}
-   	  \end{cvitems}
-    }
-
 %---------------------------------------------------------
 \end{cventries}
